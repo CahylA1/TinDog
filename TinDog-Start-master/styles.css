@@ -4,6 +4,16 @@
     font-family: "Montserrat";
 } */
 
+h3 {
+    font-family: "Montserrat";
+}
+
+p {
+ color: #8f8f8f;
+}
+
+
+
 /* ID's */
 #title {
     background-color: #ff4c68 ;
@@ -57,3 +67,28 @@
     width: 60%;
     
 }
+
+/* icon */
+.icon {
+    margin-bottom: 1rem;
+    color: #ef8172;
+}
+
+.icon:hover {
+    color: #ff4c68;
+
+}
+
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    /* text-align: center; */
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
