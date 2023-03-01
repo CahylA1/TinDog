@@ -53,7 +53,7 @@ p {
 
 .nav-item{
     padding: 0 18px;
-}
+} 
 
 .nav-link {
     font-size:1.2rem;
@@ -70,7 +70,26 @@ p {
 .img1 {
     transform: rotate(30deg);
     width: 60%;
-    
+    position: absolute;
+    right: 30%;
+}
+
+.title-img {
+    position: relative;
+}
+/* features section */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
 }
 
 /* icon */
@@ -84,18 +103,6 @@ p {
 
 }
 
-/* features section */
-
-#features{
-    padding: 7% 15%;
-    /* text-align: center; */
-}
-
-.feature-box {
-    text-align: center;
-    padding: 5%;
-
-}
 
 /* Testtimonial Secotion */
 
@@ -127,3 +134,15 @@ p {
     margin: 20px 20px 50px;
     
 }
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
